@@ -1,92 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-section{
-    padding: 100px 200px;
-}
-
-.container{
-    max-width: 1120px;
-    margin-inline: 1.5rem;
-}
-
-.grid{
-    display: grid;
-    gap: 1.5rem;
-}
-
-.section{
-    padding-block: 5rem 1rem;
-}
-
-
-.Home{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: whitesmoke;
-}
-
-.Home .content{
-    z-index: 888;
-    color: white;
-    width: 70%;
-    margin-top: 50px;
-
-}
-
-.Home .content h1{
-    font-size: 4em;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 75px;
-    margin-bottom: 40px;
-}
-
-.Home .content p{
-    margin-bottom: 65px;
-}
-
-.Home .content a{
-    background: white;
-    padding: 15px;
-    color: black;
-    font-size: 1.1em;
-    font-weight: 500;
+    border: 0;
+    outline: 0;
     text-decoration: none;
-    border-radius: 2px;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-.Home video{
-    z-index: 000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.video-slide{
-    position: absolute;
-    width: 100%;
-    clip-path: circle(0% at 50%);
-}
-
-.video-slide.active{
-    clip-path: circle(150% at 0 50%);
-    transition: 2s ease;
-    transition-property: clip-path;
+:root{
+    --color-primary:var(--color-primary)
 }
