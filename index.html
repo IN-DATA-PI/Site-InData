@@ -2,6 +2,395 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IN-DATA</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo"><a href="#">IN-DATA.</a></div>
+            <ul class="nav__links" id="nav-links">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#sobre">Sobre Nós</a></li>
+                <li class="link"><a href="#empresa">A Empresa</a></li>
+                <li class="link"><a href="#projetos">Projetos</a></li>
+                <li class="link"><a href="#time"></a>Nosso Time</li>
+            </ul>
+            <div class="nav__menu__btn" id="menu-btn">
+                <span><i class="ri-menu-line"></i></span>
+            </div>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <h1>A empresa que irá transformar dados em inovações!</h1>
+            <button class="btn btn__secondary">
+                Leia Mais
+                <span><i class="ri-arrow-right-double-line"></i></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="about" id="sobre">
+        <div class="section__container about__container">
+            <div class="about__grid">
+                <div class="about__content">
+                    <p class="section__subheader">Sobre Nós</p>
+                    <h2 class="section__header">Nossa História</h2>
+                    <p class="para">
+                        A In-Data é uma empresa de consultoria fundada em 2024 com a missão de transformar dados em
+                        inovações, ajudando organizações a explorar o valor dos dados para impulsionar a tomada de
+                        decisões e gerar insights estratégicos. Com o bordão "A empresa que irá transformar dados em
+                        inovações!"
+                    </p>
+                    <br />
+                    <p class="para">
+                        Atuando com uma equipe especializada e metodologias personalizadas, a In-Data busca capacitar
+                        clientes para que tomem decisões mais informadas e inovem continuamente em um mercado
+                        competitivo e orientado por dados.
+                    </p>
+                </div>
+                <div class="about__list">
+                    <div class="about__item">
+                        <span><i class="ri-global-fill"></i></span>
+                        <h4>Transformando dados em inovação!</h4>
+                    </div>
+                    <div class="about__item">
+                        <span><i class="ri-bar-chart-fill"></i></span>
+                        <h4>Entregando além das soluções possíveis.</h4>
+                    </div>
+                    <div class="about__item">
+                        <span><i class="ri-thumb-up-fill"></i></span>
+                        <h4>O sucesso atráves da técnologia.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats" id="empresa">
+        <div class="section__container stats__container">
+            <div class="stats__content">
+                <p class="section__subheader">Empresa</p>
+                <h2 class="section__header">Nossa Empresa</h2>
+                <p class="para">
+                    Com uma equipe de especialistas e profissionais dedicados, trazemos uma
+                    riqueza de experiência e conhecimento para cada projeto. Nossos profundos
+                    insights da técnologia e experiência prática nos permitem enfrentar até mesmo
+                    os desafios mais complexos, fornecendo a você soluções
+                    personalizadas que geram resultados.
+                </p>
+                <div class="stats__grid">
+                    <div class="stats__card">
+                        <span><i class="ri-building-4-line"></i></span>
+                        <h4>1300</h4>
+                        <p>Avaliações Positivas</p>
+                    </div>
+                    <div class="stats__card">
+                        <span><i class="ri-user-fill"></i></span>
+                        <h4>5</h4>
+                        <p>Profissionais Qualificados</p>
+                    </div>
+                    <div class="stats__card">
+                        <span><i class="ri-user-smile-line"></i></span>
+                        <h4>1723</h4>
+                        <p>Clientes Satisfeitos</p>
+                    </div>
+                    <div class="stats__card">
+                        <span><i class="ri-trophy-fill"></i></span>
+                        <h4>125</h4>
+                        <p>Projetos Concluídos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stats__image">
+                <img src="assets/pexels-karolina-grabowska-6135111.jpg" alt="stats" />
+                <img src="assets/pexels-karolina-grabowska-6135111.jpg" alt="stats" />
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="section__container banner__container">
+            <div class="banner__content">
+                <p class="section__subheader">Depoimentos</p>
+                <h2 class="section__header">
+                    Aqui temos alguns dos feedbacks de nossos clientes.
+                </h2>
+            </div>
+
+            <section class="customer">
+                <div class="section__container customer__container">
+                    <div class="customer__review">
+
+                        <div class="swiper">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="customer__review__card">
+                                        <span><i class="ri-double-quotes-r"></i></span>
+                                        <p>
+                                            O Insigna revolucionou a forma como analisamos a segurança pública em São
+                                            Paulo. A capacidade de analisar crimes em tempo real e identificar padrões
+                                            nos permite planejar operações com mais precisão e responder de forma mais
+                                            rápida e estratégica aos eventos.
+                                        </p>
+                                        <div class="customer__review__details">
+                                            <img src="assets/pessoa1.jpg" alt="customer" />
+                                            <div>
+                                                <h4>João Othavio</h4>
+                                                <h5>Policial</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer__review__card">
+                                        <span><i class="ri-double-quotes-r"></i></span>
+                                        <p>
+                                            A interface do Insigna é bem organizada e fácil de usar, facilitando a
+                                            compreensão de dados complexos e a visualização das áreas mais críticas da
+                                            cidade. Isso contribui para que equipes de segurança direcionem esforços com
+                                            base em informações claras e bem apresentadas.
+                                        </p>
+                                        <div class="customer__review__details">
+                                            <img src="assets/pessoa1.jpg" alt="customer" />
+                                            <div>
+                                                <h4>Laura Rodrigues</h4>
+                                                <h5>Delegada</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="customer__review__card">
+                                        <span><i class="ri-double-quotes-r"></i></span>
+                                        <p>
+                                            Além de responder a crimes, o Insigna ajuda a preveni-los. Com suas
+                                            ferramentas de análise, conseguimos identificar locais de risco e concentrar
+                                            operações preventivas nesses pontos, tornando o sistema uma peça essencial
+                                            na redução da criminalidade.
+                                        </p>
+                                        <div class="customer__review__details">
+                                            <img src="assets/pessoa1.jpg" alt="customer" />
+                                            <div>
+                                                <h4>Gabriel Ribeiro</h4>
+                                                <h5>Investigador</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="blog" id="projetos">
+        <div class="section__container blog__container">
+            <p class="section__subheader">Projetos</p>
+            <h2 class="section__header">Nossos Projetos</h2>
+            <div class="blog__grid">
+                <div class="blog__card">
+                    <img src="assets/pexels-karolina-grabowska-6135111.jpg" alt="blog" />
+                    <div>
+                        <span><i class="ri-user-line"></i> Por In-Data</span>
+                        <span><i class="ri-time-line"></i> Jun 28, 2024</span>
+                        <span><i class="ri-thumb-up-line"></i> 20</span>
+                    </div>
+                    <h4>Amigo Pet</h4>
+                    <p>
+                        Um sistema inteligente e funcional par o seu Pet Shop, de agendamentos e controle dos
+                        atendimentos no seu estabelecimento!
+                    </p>
+                </div>
+                <div class="blog__card">
+                    <img src="assets/pexels-karolina-grabowska-6135111.jpg" alt="blog" />
+                    <div>
+                        <span><i class="ri-user-line"></i> Por In-data</span>
+                        <span><i class="ri-time-line"></i> Ago 27, 2023</span>
+                        <span><i class="ri-thumb-up-line"></i> 18</span>
+                    </div>
+                    <h4>Insigna</h4>
+                    <p>
+                        Um software inovador para o controle e análise dos dados de crime de São Paulo, assim podendo
+                        tomar decisões mais assertivas para melhorar o policimaneto e diminuir o crime!
+                    </p>
+                </div>
+                <div class="blog__card">
+                    <img src="assets/pexels-karolina-grabowska-6135111.jpg" alt="blog" />
+                    <div>
+                        <span><i class="ri-user-line"></i> Por In-Data</span>
+                        <span><i class="ri-time-line"></i> Mar 15, 2024</span>
+                        <span><i class="ri-thumb-up-line"></i> 20</span>
+                    </div>
+                    <h4>S.O.S Ruc</h4>
+                    <p>
+                        Um sistema funcional para o controle de cursos e matéria da sua instituição de ensino.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="subscribe" id="subscribe">
+      <div class="section__container subscribe__container">
+        <p class="section__subheader">Newsletter</p>
+        <h2 class="section__header">
+          Subscribe To Get The Latest News & Updates
+        </h2>
+        <form action="/">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <button class="btn btn__primary">Subscribe</button>
+        </form>
+        <p class="para">
+          By sumbitting this form, you agree to the
+          <a href="#">privacy policy</a> and <a href="#">terms of use.</a>
+        </p>
+      </div>
+    </section> -->
+
+    <section class="team">
+        <div class="section__container">
+            <p class="section__subheader">Equipe</p>
+            <br>
+            <h2 class="section__header">Nosso Time</h2>
+            <br>
+            <div class="container team_container">
+                <article class="team_member">
+                    <div class="team_member-image">
+                        <img src="assets/pessoa1.jpg" alt="">
+                    </div>
+                    <div class="team_member-info">
+                        <h4>Matheus Essu</h4>
+                        <p>P.O</p>
+                    </div>
+
+
+                </article>
+                <article class="team_member">
+                    <div class="team_member-image">
+                        <img src="assets/pessoa1.jpg" alt="">
+                    </div>
+                    <div class="team_member-info">
+                        <h4>João Kevin</h4>
+                        <p>Desenvolvedor</p>
+                    </div>
+
+
+                </article>
+                <article class="team_member">
+                    <div class="team_member-image">
+                        <img src="assets/pessoa1.jpg" alt="">
+                    </div>
+                    <div class="team_member-info">
+                        <h4>Reynald Costa</h4>
+                        <p>Desenvolvedor</p>
+                    </div>
+
+
+                </article>
+                <article class="team_member">
+                    <div class="team_member-image">
+                        <img src="assets/pessoa1.jpg" alt="">
+                    </div>
+                    <div class="team_member-info">
+                        <h4>Victor Henrique</h4>
+                        <p>Scrum Master</p>
+                    </div>
+
+
+                </article>
+                <article class="team_member">
+                    <div class="team_member-image">
+                        <img src="assets/pessoa1.jpg" alt="">
+                    </div>
+                    <div class="team_member-info">
+                        <h4>Yasmin Pereira</h4>
+                        <p>Desenvolvedora</p>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h5><a href="#">IN-DATA.</a></h5>
+                <p>
+                    Nós nos esforçamos para estar na vanguarda dos avanços tecnológicos e
+                    das melhores práticas do setor, superando consistentemente as expectativas
+                    de nossos clientes.
+                </p>
+                <div class="footer__socials">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Quick Links</h4>
+                <div class="footer__links">
+                    <a href="#">Home</a>
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">A Empresa</a>
+                    <a href="#">Projetos</a>
+                    <a href="#">Time</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Our Services</h4>
+                <div class="footer__links">
+                    <a href="#">Chemical Research</a>
+                    <a href="#">Construction Material</a>
+                    <a href="#">Agricultural Engineering</a>
+                    <a href="#">Bridge Engineering</a>
+                    <a href="#">Automative & Systems</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Help</h4>
+                <div class="footer__links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Support</a>
+                    <a href="#">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2023 Web Design Mastery. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -513,4 +902,4 @@
 
 </body>
 
-</html>
+</html> -->
